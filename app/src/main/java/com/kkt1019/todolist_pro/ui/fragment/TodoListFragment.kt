@@ -34,6 +34,6 @@ class TodoListFragment : Fragment() {
     fun onFabClicked(){
         val todoListModel = TodoListModel(false, "테스트")
         todoListViewModel.addUser(todoListModel)
-    }
+    } //TODO 여기서부터 다시
 
 }
