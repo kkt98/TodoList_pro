@@ -8,5 +8,5 @@ data class TodoListModel(
     @PrimaryKey(autoGenerate = true)
     var id : Int =  0,
     val check : Boolean,
-    val List : String
+    val list : String
 )
