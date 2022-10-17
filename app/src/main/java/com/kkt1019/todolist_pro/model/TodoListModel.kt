@@ -5,8 +5,9 @@ import androidx.room.PrimaryKey
 
 @Entity
 data class TodoListModel(
-    @PrimaryKey(autoGenerate = true)
-    var id : Int =  0,
     val check : Boolean,
     val list : String
-)
+){
+    @PrimaryKey(autoGenerate = true)
+    var id = 0
+}

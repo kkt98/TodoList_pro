@@ -1,4 +1,4 @@
-package com.kkt1019.todolist_project.ui.activity
+package com.kkt1019.todolist_pro.ui.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
