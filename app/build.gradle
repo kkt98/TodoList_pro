@@ -49,14 +49,18 @@ dependencies {
 
     //Room
     implementation("androidx.room:room-runtime:2.4.3")
-    annotationProcessor("androidx.room:room-compiler:2.4.3")
     kapt("androidx.room:room-compiler:2.4.3")
+    implementation "androidx.room:room-ktx:2.4.3"
 
+    //LiveData
     implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.5.1'
     kapt 'androidx.lifecycle:lifecycle-compiler:2.5.1'
 
-    // ViewModel - 라이프 사이클
+    //ViewModel
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1"
+
+    implementation 'androidx.fragment:fragment-ktx:1.5.3'
+
 
     implementation "androidx.viewpager2:viewpager2:1.0.0"
 }
